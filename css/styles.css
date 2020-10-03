@@ -12,3 +12,14 @@
  .home h1{
      font-weight: 900;
  }
+ #mouse-click {
+    
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s;
+      }
+      
+#about h2{
+    font-weight: 900;
+}
