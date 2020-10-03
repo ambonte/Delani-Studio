@@ -9,4 +9,6 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
-
+ .home h1{
+     font-weight: 900;
+ }
