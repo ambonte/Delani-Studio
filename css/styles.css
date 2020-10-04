@@ -73,9 +73,7 @@ height: 80vh;
   /**animating the key**/
   @keyframes cliking {
     from {background-color: red;}
-    to {background-color: yellow;}
+    to {background-color: yellow;
+    }
 
-    /**************************************************************/
 
-
-    
