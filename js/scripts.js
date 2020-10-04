@@ -21,18 +21,16 @@ $(document).ready(function() {
   /****************************************************************** */
 
   $(document).ready(function(){
-    $("form").submit(function(event){
-      // event.preventDefault();
-      var name = $("input#name").val();
-      var email = $("input#email").val();
-      var message = $("textarea#comment").val();
-      if ($("input#name").val() && $("input#email").val()){
-        alert (name + ", we have received your message. Thank you for reaching out to us.");
-      }
-      else {
-        alert("Please enter your name and email!");
-      }
-      
-    });
-  
+    $("form").submit(function (event) {
+  var inputName = $("#name").val();
+  var inputEmail = $("#email").val();
+  var x = $("#comment").val();
+  if (inputName == "" || inputEmail == "" || x == "") {
+    alert("invalid input");
+  }
+  else {
+    alert('Hi  ' +  inputName + ' Thank you for reaching out to us.');
+  }
+  event.preventDefault();
+  });
   });
