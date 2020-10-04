@@ -22,9 +22,9 @@ $(document).ready(function() {
 
   $(document).ready(function(){
     $("form").submit(function (event) {
-  var inputName = $("#user").val();
-  var inputEmail = $("#user1").val();
-  var x = $("#user2").val();
+  var inputName = $("#name").val();
+  var inputEmail = $("#email").val();
+  var x = $("#exampleFormControlTextarea1").val();
   if (inputName == "" || inputEmail == "" || x == "") {
     alert("invalid input");
   }
