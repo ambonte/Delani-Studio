@@ -45,14 +45,21 @@
 
   .overserv1{
       display: none;
-
   }
   .overserv2{
-      display: none;
-  }
-  .overserv3{
-      display: none;
-  }
+    display: none;
+}
+.overserv3{
+    display: none;
+}
+
+
+
+
+
+
+
+
 
   /* contact us**/
   .contactus{
@@ -61,3 +68,17 @@ background-size: cover;
 background-repeat: no-repeat;
 height: 80vh;
   }
+
+  form #contact{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  input[type=text] {
+    background:transparent;
+    color: white;
+  }
+  .form-control{
+      background-color: transparent;
+    
+  }
+  
